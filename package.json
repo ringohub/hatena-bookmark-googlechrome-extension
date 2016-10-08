@@ -1,0 +1,19 @@
+{
+  "name": "hyper-hatena-bookmark",
+  "version": "0.1.0",
+  "description": "Hyper Hatena Bookmark Extnsion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ringohub/hatena-bookmark-googlechrome-extension.git"
+  },
+  "author": "Yoshiki Aoki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ringohub/hatena-bookmark-googlechrome-extension/issues"
+  },
+  "homepage": "https://github.com/ringohub/hatena-bookmark-googlechrome-extension#readme"
+}
