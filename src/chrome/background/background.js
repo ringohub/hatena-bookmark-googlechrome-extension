@@ -1,4 +1,3 @@
-
 var isEuraAgreed = function() {
     return !!localStorage.eula;
 };

@@ -4,7 +4,9 @@
   "description": "Hyper Hatena Bookmark Extnsion",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "node-sass --include-path scss src/scss/button.scss src/chrome/css/button.css",
+    "watch:css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/ringohub/hatena-bookmark-googlechrome-extension/issues"
   },
-  "homepage": "https://github.com/ringohub/hatena-bookmark-googlechrome-extension#readme"
+  "homepage": "https://github.com/ringohub/hatena-bookmark-googlechrome-extension#readme",
+  "dependencies": {
+    "riot": "2.6.3"
+  },
+  "devDependencies": {
+    "node-sass": "3.10.1",
+    "nodemon": "1.11.0"
+  }
 }

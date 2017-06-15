@@ -1,0 +1,42 @@
+button {
+  font-family: 'Hiragino Sans';
+  font-weight: 200;
+  background: none;
+  text-decoration: none;
+  border: 1px solid #00A4DE;
+  border-radius: 2px;
+  /*height: 2.8em;*/
+  /*width: 100%;*/
+  color: #00A4DE;
+  text-align: center;
+  line-height: 200%;
+  outline: none;
+  padding: 0 5px 0px 5px;
+}
+button:hover {
+  background-color: #00A4DE;
+  color: white;
+}
+button:active {
+  background-color: RGBA(0, 149, 136, 1.00);
+  color: white;
+}
+
+.fa {
+  display: inline-block;
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+}
+
+
+#search-word {
+  font-family: 'Hiragino Sans';
+  font-weight: 200;
+}
+
+#search-form {
+  width: 180px;
+  border-bottom: 1px solid #00A4DE;
+}

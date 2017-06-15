@@ -17,6 +17,8 @@
 <script type="text/javascript" src="../lib/51-HatenaStarLoader.js"></script>
 <script type="text/javascript" src="../lib/60-TagCompleter.js"></script>
 <link rel="stylesheet" href="popup.css" type="text/css" />
+<link rel="stylesheet" href="button.css" type="text/css" />
+<link href="https://netdna.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css" rel="stylesheet">
 <title>はてなブックマーク Google Chrome 拡張</title>
 </head>
 <body class="data-loading">
@@ -93,16 +95,16 @@
   <div id="header">
     <div id="header-left">
       <ul class="tab-ui">
-        <li id="bookmark-tab">ブックマークする</li>
-        <li id="comment-tab">コメント</li>
-        <li class="tab-link">
-        </li>
+        <button id="bookmark-tab"><i class="fa fa-fw fa-bookmark" aria-hidden="true"></i>ブックマークする</button>
+        <button id="comment-tab"><i class="fa fa-fw fa-commenting" aria-hidden="true"></i>コメント</button>
+        <!-- <button class="tab-link"></button> -->
       </ul>
     </div>
     <div id="header-right">
       <ul class="tab-ui">
         <li id="search-tab">
         <form id="search-form">
+          <i class="fa fa-fw fa-search" aria-hidden="true"></i>
           <input placeholder="マイブックマーク検索" id="search-word" type="text" />
         </form>
         </li>

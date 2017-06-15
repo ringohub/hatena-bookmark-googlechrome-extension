@@ -337,28 +337,6 @@ ul.tab-ui li.tab-link img {
   border: none;
 }
 
-#bookmark-tab,
-#comment-tab {
-  background-image: url(/images/chrome-b-append_off.png);
-  background-position: 5px 3px;
-  background-repeat: no-repeat;
-  padding: 0 5px 0 25px;
-  border-radius: 5px 0 0 5px; /* Chrome 4 以降で使える */
-}
-
-#comment-tab {
-  background-image: url(/images/serif_list_off.png);
-  padding: 0 8px 0 25px;
-  border-radius: 0 5px 5px 0; /* Chrome 4 以降で使える */
-}
-
-#bookmark-tab.current {
-  background-image: url(/images/chrome-b-append.png);
-}
-
-#comment-tab.current {
-  background-image: url(/images/serif_list.png);
-}
 
 ul.tab-ui li.current {
   color: #2C6EBD;
@@ -943,7 +921,7 @@ dd#all-tags {
   display: none;
 }
 
-#search-form {
+/*#search-form {
   display: inline-block;
   background-color: #FFF;
   -webkit-box-flex: 1;
@@ -953,13 +931,13 @@ dd#all-tags {
   vertical-align: middle;
   border: 1px solid #cccccc;
   border-radius: 3px;
-}
+}*/
 
 #search-form input {
   border: none;
   width: 100%;
   box-sizing: border-box;
-  background: url(../images/user-search.png) 5px center no-repeat;
+  /*background: url(../images/user-search.png) 5px center no-repeat;*/
   font-size: 12px;
   line-height: 24px;
   padding: 0 10px 0 22px;
